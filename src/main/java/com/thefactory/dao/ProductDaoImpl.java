@@ -31,5 +31,8 @@ public class ProductDaoImpl implements ProductDAO
 			
 		}
 		
+		public void remove(Product obj){
+			em.remove(obj);
+		}
 	
 }

@@ -41,4 +41,6 @@ public class ProductDaoImplTest {
 		Assert.assertTrue(pdi.findAll().size()==nb+1);
 	}
 
+	
+
 }

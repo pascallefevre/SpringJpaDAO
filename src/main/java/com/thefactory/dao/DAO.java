@@ -6,4 +6,5 @@ public interface DAO<T>
 {
 	List<T> findAll();
 	void create(T obj);
+	void remove(T obj);
 }
